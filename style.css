@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color: #efefef;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    box-shadow: 1px 2px 30px 3px rgba(0,0,0,0.75);
+}
+.left-side{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    background-image: url(logo.png);
+    background-size: cover;
+    background-position: center center;
+    margin-top: 50px;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #656262;
+    margin-top: 70px;
+}
+.nav span{
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+.active{
+    color:black;
+}
+.content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background:#efefeffc;
+}
+.header{
+    margin: 10px 0px 20px 0px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.header span{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+.lined{
+    border-bottom: 1px solid black;
+}
+.images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img{
+    background-color: white;
+    margin: 10px;
+    width: 200px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pages{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.circl{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.circls{
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-left: 6px;
+}
+.pageIn{
+    background-color: black;
+}
+.content-info{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: -10px -1px 28px -14px rgba(0,0,0,0.75);
+
+}
+.close{
+    width: 90%;
+    margin: 15px;
+    text-align: right;
+}
+.cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+}
+.desc{
+    width: 90%;
+    margin: 10px;
+}
+.desc p{
+    font-size: 14px;
+}
+.btn{
+    width: 80%;
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.btn button{
+    background:transparent;
+    color: black;
+    width: 100px;
+    outline: none;
+    border: 1px solid black;
+    margin-left: 40px;
+}
+.btn span{
+    font-size: 18px;
+    margin-right: 5px;
+}
